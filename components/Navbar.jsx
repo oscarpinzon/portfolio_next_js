@@ -34,12 +34,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/assets/navLogo.png?timestamp=${Date.now()}}"
-            alt="/"
-            width="125"
-            height="50"
-          />
+          <Image src="/assets/navLogo.png" alt="/" width="125" height="50" />
         </Link>
         <div>
           <ul className="hidden md:flex">
@@ -84,12 +79,7 @@ const Navbar = () => {
         >
           <div className="flex w-full items-center justify-between">
             <Link href="/">
-              <Image
-                src="/assets/navLogo.png?timestamp=${Date.now()}}"
-                width="87"
-                height="35"
-                alt="/"
-              />
+              <Image src="/assets/navLogo.png" width="87" height="35" alt="/" />
             </Link>
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 coursor-pointer">
               <AiOutlineClose onClick={handleNav} />
