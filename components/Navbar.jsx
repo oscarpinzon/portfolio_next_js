@@ -38,13 +38,13 @@ const Navbar = () => {
         </Link>
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="#home">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/#about">
+            <Link href="#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/#skills">
+            <Link href="#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
             {/*
@@ -54,7 +54,7 @@ const Navbar = () => {
               </li>
             </Link>
             */}
-            <Link href="/#contact">
+            <Link href="#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -92,17 +92,17 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="#home">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Home
                 </li>
               </Link>
-              <Link href="/#about">
+              <Link href="#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   About
                 </li>
               </Link>
-              <Link href="/#skills">
+              <Link href="#skills">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Skills
                 </li>
@@ -114,7 +114,7 @@ const Navbar = () => {
                 </li>
               </Link>
               */}
-              <Link href="/#contact">
+              <Link href="#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
                 </li>
