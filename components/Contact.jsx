@@ -20,7 +20,7 @@ const Contact = () => {
             <div className="lg:p-4 h-full">
               <div>
                 <Image
-                  src="/../public/assets/contact.jpg"
+                  src="/assets/contact.jpg"
                   alt="a computer"
                   width={1964}
                   height={1964}
