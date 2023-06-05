@@ -33,20 +33,20 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/">
+        <a href="#home">
           <Image src="/assets/navLogo.png" alt="/" width="125" height="50" />
-        </Link>
+        </a>
         <div>
           <ul className="hidden md:flex">
-            <Link href="#home">
+            <a href="#home">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </Link>
-            <Link href="#about">
+            </a>
+            <a href="#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-            </Link>
-            <Link href="#skills">
+            </a>
+            <a href="#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
-            </Link>
+            </a>
             {/*
             <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
@@ -54,11 +54,11 @@ const Navbar = () => {
               </li>
             </Link>
             */}
-            <Link href="#contact">
+            <a href="#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
-            </Link>
+            </a>
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
@@ -78,9 +78,9 @@ const Navbar = () => {
           }
         >
           <div className="flex w-full items-center justify-between">
-            <Link href="/">
+            <a href="#home">
               <Image src="/assets/navLogo.png" width="87" height="35" alt="/" />
-            </Link>
+            </a>
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 coursor-pointer">
               <AiOutlineClose onClick={handleNav} />
             </div>
@@ -92,21 +92,21 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="#home">
+              <a href="#home">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Home
                 </li>
-              </Link>
-              <Link href="#about">
+              </a>
+              <a href="#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   About
                 </li>
-              </Link>
-              <Link href="#skills">
+              </a>
+              <a href="#skills">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Skills
                 </li>
-              </Link>
+              </a>
               {/*              
               <Link href="/#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
@@ -114,11 +114,11 @@ const Navbar = () => {
                 </li>
               </Link>
               */}
-              <Link href="#contact">
+              <a href="#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
                 </li>
-              </Link>
+              </a>
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">
